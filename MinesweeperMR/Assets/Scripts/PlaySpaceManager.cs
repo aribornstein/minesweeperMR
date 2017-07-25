@@ -2,8 +2,7 @@
 using UnityEngine;
 using UnityEngine.Windows.Speech;
 using Academy.HoloToolkit.Unity;
-
-
+using HoloToolkit.Unity;
 
 /// <summary>
 /// The SurfaceManager class allows applications to scan the environment for a specified amount of time 
@@ -45,6 +44,12 @@ public class PlaySpaceManager : Singleton<PlaySpaceManager>
 
         // Register for the MakePlanesComplete event.
         SurfaceMeshesToPlanes.Instance.MakePlanesComplete += SurfaceMeshesToPlanes_MakePlanesComplete;
+
+        //  speak 
+        var soundManager = GameObject.Find("Audio Manager");
+        TextToSpeechManager textToSpeech = soundManager.GetComponent<TextToSpeechManager>();
+        textToSpeech.Voice = TextToSpeechVoice.Mark;
+        textToSpeech.SpeakText("Please walk around and map your room to start the game!");
     }
 
     /// <summary>

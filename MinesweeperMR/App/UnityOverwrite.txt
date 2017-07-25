@@ -5,37 +5,19 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-Planetarium.sln: modified
+Planetarium.sln: AD2E25182D6558536385E8B2721ADE44
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 4FCF72A4D5EDB37E24C206A7BCFE7AF1
 GeneratedProjects\UWP\Assembly-CSharp-firstpass\project.json: 4FCF72A4D5EDB37E24C206A7BCFE7AF1
 Planetarium\App.cs: 318496070921EB0E049B96FDC617275A
-Planetarium\Package.appxmanifest: modified
-Planetarium\Planetarium.csproj: modified
-Planetarium\Planetarium.csproj.user: modified
+Planetarium\Package.appxmanifest: 26EBE20A46558FD25839D72E26490899
+Planetarium\Planetarium.csproj: 962AAD4346FD26F3A2DCE00617E00DDD
+Planetarium\Planetarium.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
 Planetarium\project.json: 1D02BC64BAC0D041019673A1C4C51737
-Planetarium\Assets\LargeTile.scale-100.png: EB9850D7AE5A5CA436F98DD28725BA8A
-Planetarium\Assets\SmallTile.scale-100.png: EDA47C0486627AD5C38277773ED143FA
-Planetarium\Assets\SplashScreen.scale-100.png: 4E705559299AED4DB9492E3B047D1499
-Planetarium\Assets\SplashScreen.scale-125.png: 3EF064879B6B8523720ADC36D657EB00
-Planetarium\Assets\SplashScreen.scale-150.png: 417B64F373A27E185800EBC533474939
-Planetarium\Assets\SplashScreen.scale-200.png: modified
-Planetarium\Assets\SplashScreen.scale-400.png: 4B2829DB7907D3746B4DE6E46874B71C
-Planetarium\Assets\Square150x150Logo.scale-100.png: E1EC0D15FB64285EB29B3B80D396A097
-Planetarium\Assets\Square150x150Logo.scale-125.png: E5C94DFE1B81B0C7198BE4778D6CF1FB
-Planetarium\Assets\Square150x150Logo.scale-150.png: 4163F402CC29EEB8C3133D0F5C0CD568
-Planetarium\Assets\Square150x150Logo.scale-200.png: modified
-Planetarium\Assets\Square150x150Logo.scale-400.png: 1BDA48A0AC90FCE6D4041C9C12C30248
-Planetarium\Assets\Square44x44Logo.scale-100.png: BE4507CA28DCFD5D4C60F3A27C918E99
-Planetarium\Assets\Square44x44Logo.scale-125.png: 74159CDB9E919D16FDEDA6F19401B602
-Planetarium\Assets\Square44x44Logo.scale-150.png: 38F878654782283DF927DCD38DA9AD6E
-Planetarium\Assets\Square44x44Logo.scale-200.png: modified
-Planetarium\Assets\Square44x44Logo.scale-400.png: BAC3DB6AD9AEA8C31A09149F6D24EE39
-Planetarium\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: modified
+Planetarium\Assets\SplashScreen.scale-200.png: 60618416282ED104FD1473935716045D
+Planetarium\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
+Planetarium\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775DE
+Planetarium\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
 Planetarium\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
-Planetarium\Assets\Wide310x150Logo.scale-100.png: DA5DDE58C1520317542E46C97681BC89
-Planetarium\Assets\Wide310x150Logo.scale-125.png: CAA7B06123A46A04161588A776EA9544
-Planetarium\Assets\Wide310x150Logo.scale-150.png: C161E658CE9D0353DA31E3A780B0A2C5
-Planetarium\Assets\Wide310x150Logo.scale-200.png: modified
-Planetarium\Assets\Wide310x150Logo.scale-400.png: 9CA91FDF1698A5CE3ACD91C01D865178
+Planetarium\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
 Planetarium\Properties\AssemblyInfo.cs: 4032722BB7418C57200B5357AE12E185
 Planetarium\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826

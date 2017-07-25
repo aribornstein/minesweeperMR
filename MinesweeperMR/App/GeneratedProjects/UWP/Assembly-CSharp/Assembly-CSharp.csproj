@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8d3ad673-cdb3-4efa-966d-794e8c16a3a1}</ProjectGuid>
+    <ProjectGuid>{ea05571e-5729-4679-8164-897dff6fecc3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -130,8 +130,8 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\abornst\Documents\SpatialMapping\HolographicAcademy-Holograms-230-SpatialMapping\Planetarium\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{1e7335f3-2c5e-4424-aea6-ad97880b6e28}</Project>
+    <ProjectReference Include="C:\Users\abornst\Documents\minesweeperMR\MinesweeperMR\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
+      <Project>{67de1631-9c6b-4301-82f5-6afed388bfe0}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <Reference Include="UnityEngine">
@@ -187,7 +187,7 @@
     <Message Importance="high" Text="Running SerializationWeaver..." />
     <Move SourceFiles="@(IntermediateAssembly)" DestinationFolder="$(TargetDir)Unprocessed" OverwriteReadOnlyFiles="true" />
     <Move SourceFiles="@(IntermediateAssembly-&gt;'%(RelativeDir)%(Filename).pdb')" DestinationFolder="$(TargetDir)Unprocessed" Condition="Exists('@(IntermediateAssembly-&gt;'%(RelativeDir)%(Filename).pdb')')" OverwriteReadOnlyFiles="true" />
-    <Exec Command="&quot;$(UnityWSAToolsDir)SerializationWeaver\SerializationWeaver.exe&quot; &quot;$(TargetDir)Unprocessed\$(TargetFileName)&quot; &quot;-pdb&quot; &quot;-verbose&quot; &quot;-unity-engine=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.dll&quot; &quot;$([System.IO.Path]::GetFullPath('$(IntermediateOutputPath)').TrimEnd('\'))&quot; &quot;-lock=$([System.IO.Path]::Combine('$(ProjectDir)', 'project.lock.json'))&quot; &quot;@C:\Users\abornst\Documents\SpatialMapping\HolographicAcademy-Holograms-230-SpatialMapping\Planetarium\App\GeneratedProjects\UWP\Assembly-CSharp\SerializationWeaverArgs.txt&quot; &quot;-additionalAssemblyPath=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed&quot; &quot;-unity-networking=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.Networking.dll&quot; &quot;-additionalAssemblyPath=$(UnityWSASolutionDir)GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\$(PlatformName)\$(ConfigurationName)&quot;" />
+    <Exec Command="&quot;$(UnityWSAToolsDir)SerializationWeaver\SerializationWeaver.exe&quot; &quot;$(TargetDir)Unprocessed\$(TargetFileName)&quot; &quot;-pdb&quot; &quot;-verbose&quot; &quot;-unity-engine=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.dll&quot; &quot;$([System.IO.Path]::GetFullPath('$(IntermediateOutputPath)').TrimEnd('\'))&quot; &quot;-lock=$([System.IO.Path]::Combine('$(ProjectDir)', 'project.lock.json'))&quot; &quot;@C:\Users\abornst\Documents\minesweeperMR\MinesweeperMR\App\GeneratedProjects\UWP\Assembly-CSharp\SerializationWeaverArgs.txt&quot; &quot;-additionalAssemblyPath=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed&quot; &quot;-unity-networking=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.Networking.dll&quot; &quot;-additionalAssemblyPath=$(UnityWSASolutionDir)GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\$(PlatformName)\$(ConfigurationName)&quot;" />
     <Message Importance="high" Text="SerializationWeaver done." />
   </Target>
   <PropertyGroup>

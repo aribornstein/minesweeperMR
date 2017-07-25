@@ -15490,10 +15490,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\abornst\\Documents\\SpatialMapping\\HolographicAcademy-Holograms-230-SpatialMapping\\Planetarium\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+      "projectUniqueName": "C:\\Users\\abornst\\Documents\\minesweeperMR\\MinesweeperMR\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
       "projectName": "Assembly-CSharp-firstpass",
-      "projectPath": "C:\\Users\\abornst\\Documents\\SpatialMapping\\HolographicAcademy-Holograms-230-SpatialMapping\\Planetarium\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
-      "projectJsonPath": "C:\\Users\\abornst\\Documents\\SpatialMapping\\HolographicAcademy-Holograms-230-SpatialMapping\\Planetarium\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\project.json",
+      "projectPath": "C:\\Users\\abornst\\Documents\\minesweeperMR\\MinesweeperMR\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+      "projectJsonPath": "C:\\Users\\abornst\\Documents\\minesweeperMR\\MinesweeperMR\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

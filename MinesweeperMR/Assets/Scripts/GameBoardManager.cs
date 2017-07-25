@@ -8,8 +8,8 @@ public class GameBoardManager : Singleton<GameBoardManager>
     public GameObject GamePiece;
     
     private static readonly System.Random getrandom = new System.Random();
-    public Vector3 cellSize = new Vector3(1.5f, 0.5f, 1.5f);
-
+    //public Vector3 cellSize = new Vector3(1.5f, 0.5f, 1.5f);
+    public Vector3 cellSize = new Vector3(15.0f, 5.0f, 15.0f);
     public void GenerateBoard(GameObject floor) {
         GenerateGameBoard(cellSize, 1.1f, floor.GetComponent<SurfacePlane>());
         SpatialMappingManager.Instance.undrawVisibleMesh(); //disable mesh
@@ -58,7 +58,7 @@ public class GameBoardManager : Singleton<GameBoardManager>
                         }
                     }
 
-                    cell.transform.localScale = 2 * halfExtents;
+                    //cell.transform.localScale = 2 * halfExtents;
                     cell.transform.position = center;
                     // might be more effecient to use a dictionary to locate cells than the gameObject.find
                     cell.transform.name = "cell:" + xpos.ToString() + "," + ypos.ToString();

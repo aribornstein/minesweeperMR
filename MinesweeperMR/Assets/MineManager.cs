@@ -10,7 +10,7 @@ public class MineManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        gameObject.GetComponent<Renderer>().enabled = false;
+   //     gameObject.GetComponent<Renderer>().enabled = false;
 
     }
 

@@ -9,7 +9,7 @@ public class GamePieceManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        gameObject.GetComponent<Renderer>().enabled = false;
+       // gameObject.GetComponent<Renderer>().enabled = false;
     }
 	
 	// Update is called once per frame
@@ -23,7 +23,7 @@ public class GamePieceManager : MonoBehaviour {
             newNumber = Instantiate(Number, GameBoardManager.Instance.transform, true);
             newNumber.transform.position = gameObject.transform.position;
             newNumber.transform.rotation = gameObject.transform.rotation;
-            newNumber.transform.localScale = gameObject.transform.localScale;
+           // newNumber.transform.localScale = gameObject.transform.localScale;
             newNumber.GetComponent<TextMesh>().text = countAdjacentMines().ToString();
             newNumber.SetActive(true);
             // destroy

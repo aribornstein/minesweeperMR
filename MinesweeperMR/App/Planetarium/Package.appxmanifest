@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Package xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" IgnorableNamespaces="uap uap2 mp">
+<Package xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" IgnorableNamespaces="uap uap2 mp" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
   <Identity Name="Planetarium" Publisher="CN=DefaultCompany" Version="1.0.0.0" />
   <mp:PhoneIdentity PhoneProductId="2bc0436f-b6b2-4e67-9261-d261c1f18f15" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
@@ -15,15 +15,14 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Planetarium.App">
-      <uap:VisualElements DisplayName="Minesweeper MR Demo" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Planetarium" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
-        </uap:DefaultTile>
+      <uap:VisualElements DisplayName="Planetarium" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Planetarium" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
         <uap:InitialRotationPreference>
-          <uap:Rotation Preference="portrait" />
           <uap:Rotation Preference="landscape" />
-          <uap:Rotation Preference="portraitFlipped" />
           <uap:Rotation Preference="landscapeFlipped" />
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="portraitFlipped" />
         </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
